@@ -25,11 +25,11 @@ dependencies = []
 description = "Default and CAMS styles for use with earthkit-plots"
 dynamic = ["version"]
 license = {text = "Apache License Version 2.0"}
-name = "earthkit-plots-styles"
+name = "earthkit-plots-cams-styles"
 readme = "README.md"
 requires-python = ">= 3.8"
 urls.Issues = "https://github.com/ecmwf/earthkit-plots.issues"
-urls.Repository = "https://github.com/ecmwf/earthkit-plots-styles/"
+urls.Repository = "https://github.com/ecmwf/earthkit-plots-cams-styles/"
 
 [tool.isort]
 profile = "black"
