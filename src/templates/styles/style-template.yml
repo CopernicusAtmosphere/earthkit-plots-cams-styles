@@ -1,0 +1,12 @@
+---
+id: $param_name
+optimal: $optimal_name
+
+styles:
+
+  $style_name:
+    type: Style
+    colors: $colors
+    extend: both
+    levels: $levels
+    units: $units

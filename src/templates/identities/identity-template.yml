@@ -1,0 +1,7 @@
+id: $param_name
+
+criteria:
+- {paramId: $param_id, shortName: $short_name}
+- {standard_name: $standard_name}
+- {long_name: $long_name}
+- {stash_code: $stash_code}
