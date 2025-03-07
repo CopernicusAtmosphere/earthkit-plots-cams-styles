@@ -1,0 +1,4 @@
+id: particulate_matter_2.5um
+
+criteria:
+- {standard_name: mass_concentration_of_pm2p5_ambient_aerosol_in_air}

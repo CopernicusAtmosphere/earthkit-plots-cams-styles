@@ -1,0 +1,11 @@
+---
+id: ozone
+optimal: OZONE_DEFAULT
+
+styles:
+  OZONE_DEFAULT:
+    type: Style
+    colors: Blues
+    extend: both
+    levels: [0.0, 20.0, 40.0, 60.0, 80.0, 100.0, 120.0, 140.0, 160.0, 180.0, 200.0, 240.0, 500.0]
+    units: µg m-3

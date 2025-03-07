@@ -1,0 +1,11 @@
+---
+id: particulate_matter_2.5um
+optimal: PARTICULATE_MATTER_2.5UM_DEFAULT
+
+styles:
+  PARTICULATE_MATTER_2.5UM_DEFAULT:
+    type: Style
+    colors: Reds
+    extend: both
+    levels: range(0, 500, 50)
+    units: µg m-3

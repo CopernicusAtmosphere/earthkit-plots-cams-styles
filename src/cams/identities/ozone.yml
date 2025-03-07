@@ -1,0 +1,4 @@
+id: ozone
+
+criteria:
+- {standard_name: mass_concentration_of_ozone_in_air}
