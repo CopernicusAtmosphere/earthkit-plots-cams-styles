@@ -1,12 +1,11 @@
 ---
-id: $param_name
-optimal: $optimal_name
+id: {{ name }}
+optimal: {{ name|upper }}_DEFAULT
 
 styles:
-
-  $style_name:
+  {{ name|upper }}_DEFAULT:
     type: Style
-    colors: $colors
+    colors: {{ colours }}
     extend: both
-    levels: $levels
-    units: $units
+    levels: {{ levels }}
+    units: {{ units }}

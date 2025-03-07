@@ -1,0 +1,43 @@
+- frontend_api_name: ozone
+  backend_api_name: O3_USI
+  standard_name: mass_concentration_of_ozone_in_air
+  hidden: false
+  form_label: Ozone
+  var_table_units: "GRIB: kg m<sup>-3</sup>; netCDF: µg m<sup>-3</sup>"
+  grib_representations:
+  - parameterNumber: 0
+    constituentType: 0
+    productDefinitionTemplateNumber: 40
+  eccodes_definition:
+    shortName: o3density
+    name: Ozone
+    paramId: 999012
+    units: 'kg m**-3'
+  netcdf:
+    varname: o3_conc
+    species: Ozone
+    shortname: O3
+    units: "µg/m3"
+    scale: 1000000000.0
+
+- frontend_api_name: particulate_matter_2.5um
+  backend_api_name: PM25_USI
+  standard_name: mass_concentration_of_pm2p5_ambient_aerosol_in_air
+  hidden: false
+  form_label: "Particulate matter < 2.5 µm (PM2.5)"
+  var_table_units: "GRIB: kg m<sup>-3</sup>; netCDF: µg m<sup>-3</sup>"
+  grib_representations:
+  - parameterNumber: 0
+    constituentType: 40009
+    productDefinitionTemplateNumber: 40
+  eccodes_definition:
+    shortName: pm2p5
+    name: Particulate matter d <= 2.5 um
+    paramId: 999013
+    units: 'kg m**-3'
+  netcdf:
+    varname: pm2p5_conc
+    species: PM2.5 Aerosol
+    shortname: PM25
+    units: "µg/m3"
+    scale: 1000000000.0 
